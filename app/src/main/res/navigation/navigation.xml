@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.notas.appkafa.NotesFragment"
+        android:label="Notas"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/remindersFragment"
+        android:name="com.notas.appkafa.RemindersFragment"
+        android:label="fragment_reminders"
+        tools:layout="@layout/fragment_reminders" />
+
+    <fragment
+    android:id="@+id/perfilUsuarioFragment"
+    android:name="com.notas.appkafa.perfilUsuarioFragment"
+    android:label="Perfil Usuario"
+    tools:layout="@layout/fragment_perfil_usuario" />
+
+    <fragment
+        android:id="@+id/preferenciasFragment"
+        android:name="com.notas.appkafa.preferenciasFragment"
+        android:label="Preferencias"
+        tools:layout="@layout/fragment_preferencias" />
+
+    <fragment
+    android:id="@+id/papeleraFragment"
+    android:name="com.notas.appkafa.EliminadasFragment"
+    android:label="Papelera"
+    tools:layout="@layout/fragment_eliminadas" />
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="com.notas.appkafa.TutorialFragment"
+        android:label="Tutorial"
+        tools:layout="@layout/fragment_tutorial" />
+</navigation>

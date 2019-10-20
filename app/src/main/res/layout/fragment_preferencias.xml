@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preferenciasFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensajes de confirmación"
+        android:textColor="#663897" android:textSize="8pt"
+        android:layout_marginBottom="15dp"></TextView>
+    <TextView
+        android:id="@+id/msnGuardado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al Guardar / Actualizar nota"></TextView>
+
+
+    <Switch
+        android:id="@+id/swGuardado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Si/No"
+        android:theme="@style/SwitchTheme"
+         />
+
+    <TextView
+        android:id="@+id/msnEliminacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Antes de mover nota a Papelera"></TextView>
+
+    <Switch
+        android:id="@+id/swEliminacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Si/No"
+        android:theme="@style/SwitchTheme"
+        android:textOn="SI"
+        />
+
+    <TextView
+        android:id="@+id/msnEliminacionPermanente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Antes de eliminar nota de Papelera"></TextView>
+
+    <Switch
+        android:id="@+id/swEliminacionPermanente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Si/No"
+        android:theme="@style/SwitchTheme"
+        android:textOn="SI"
+       ></Switch>
+
+
+
+</LinearLayout>
